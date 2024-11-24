@@ -166,7 +166,7 @@ public class  Turtle implements Runnable, ActionListener, MouseListener, MouseMo
         bob.right(90);
         bob.forward(5);
 
-        /**!1*/
+        
 
         bob.left(90);
         bob.penColor("red");
@@ -197,7 +197,7 @@ public class  Turtle implements Runnable, ActionListener, MouseListener, MouseMo
         }
 
 
-        /**!2*/
+       
         bob.penColor("white");
         bob.width(0.1);
         bob.forward(100);
@@ -242,7 +242,7 @@ public class  Turtle implements Runnable, ActionListener, MouseListener, MouseMo
             bob.left(1);
         }
 
-        /**!3*/
+        
         bob.penColor("white");
         bob.width(0.1);
         bob.forward(100);
@@ -294,7 +294,7 @@ public class  Turtle implements Runnable, ActionListener, MouseListener, MouseMo
         bob.forward(400);
         bob.setPosition(0,0);
 
-        /**กรอบนอก*/
+        
         bob.left(90);
         bob.forward(50);
         bob.right(90);
