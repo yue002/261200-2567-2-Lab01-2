@@ -116,7 +116,7 @@ public class  Turtle implements Runnable, ActionListener, MouseListener, MouseMo
      }
      }
      }*/
-    public static void main(String[] a) {
+    /**public static void main(String[] a) {
         Turtle bob = new Turtle();
         bob.speed(0.001);
         bob.width(5);
@@ -309,6 +309,132 @@ public class  Turtle implements Runnable, ActionListener, MouseListener, MouseMo
         bob.forward(520);
         bob.right(90);
         bob.forward(170);
+    }*/
+    public static void main(String[] a) {
+        Turtle bob = new Turtle();
+        bob.setPosition(0,0);
+        bob.penColor("wheat");
+        bob.width(10);
+        bob.left(30);
+        bob.forward(300);
+        bob.home();
+        bob.left(150);
+        bob.forward(300);
+        bob.right(120);
+        bob.forward(300);
+        bob.right(60);
+        bob.forward(300);
+        bob.home();
+
+        bob.right(90);
+        bob.forward(50);
+        bob.right(120);
+        bob.forward(300);
+        bob.right(60);
+        bob.forward(50);
+
+        bob.home();
+        bob.right(90);
+        bob.forward(50);
+        bob.left(120);
+        bob.forward(300);
+        bob.left(60);
+        bob.forward(50);
+
+        /**กล่อง*/
+        bob.home();
+        bob.width(4);
+        bob.right(90);
+        bob.forward(100);
+
+        bob.right(120);
+        bob.forward(280);
+        bob.right(60);
+        bob.forward(50);
+
+        bob.setPosition(0,-50);
+        bob.home();
+        bob.right(90);
+        bob.forward(100);
+        bob.left(120);
+        bob.forward(295);
+        bob.left(60);
+        bob.forward(50);
+        bob.setPosition(0,-50);
+        bob.home();
+
+        /**ที่ผูก*/
+        bob.right(90);
+        bob.forward(50);
+        bob.right(120);
+        bob.forward(250);
+        bob.right(60);
+        bob.width(15);
+        bob.penColor("pink");
+        bob.forward(50);
+        bob.right(60);
+        bob.forward(300);
+        bob.right(180);
+        bob.forward(300);
+        bob.penColor("wheat");
+        bob.width(10);
+        bob.home();
+
+        bob.right(90);
+        bob.forward(50);
+        bob.right(120);
+        bob.forward(225);
+        bob.right(60);
+        bob.width(15);
+        bob.penColor("pink");
+        bob.forward(50);
+        bob.right(60);
+        bob.forward(300);
+        bob.right(180);
+        bob.forward(300);
+        bob.penColor("wheat");
+        bob.width(10);
+        bob.penColor("wheat");
+        bob.width(10);
+        bob.home();
+
+        /**เส้นที่2*/
+        bob.left(150);
+        bob.forward(300);
+        bob.right(120);
+        bob.forward(250);
+        bob.right(60);
+        bob.width(15);
+        bob.penColor("pink");
+        bob.forward(300);
+        bob.right(60);
+        bob.forward(50);
+        bob.right(180);
+        bob.forward(50);
+        bob.penColor("wheat");
+        bob.width(10);
+        bob.home();
+
+        bob.left(150);
+        bob.forward(300);
+        bob.right(120);
+        bob.forward(225);
+        bob.right(60);
+        bob.width(15);
+        bob.penColor("pink");
+        bob.forward(300);
+        bob.right(60);
+        bob.forward(50);
+        bob.right(180);
+        bob.forward(50);
+        bob.penColor("wheat");
+        bob.width(10);
+        bob.home();
+
+
+
+
+
     }
 
 
