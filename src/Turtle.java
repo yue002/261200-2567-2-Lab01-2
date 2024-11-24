@@ -431,6 +431,21 @@ public class  Turtle implements Runnable, ActionListener, MouseListener, MouseMo
         bob.width(10);
         bob.home();
 
+        bob.left(150);
+        bob.forward(235);
+        bob.right(120);
+        bob.width(0.1);
+        bob.penColor("white");
+        bob.forward(235);
+        bob.penColor("yellow");
+        bob.width(30);
+        for (int i = 0; i < 360; i++) {
+            bob.forward(2 * Math.PI * 10 / 360);
+            bob.left(1);
+        }
+        bob.up();
+        bob.hide();
+
 
 
 
